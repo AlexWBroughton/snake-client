@@ -19,6 +19,8 @@ const handleUserInput = function (key) {
     case "w":
       connection.write("Move: up");
       break;
+    case "g":
+      connection.write("Say: Hello, this is AB");
   }
 };
 
